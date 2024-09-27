@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Input_Actions _input;
     private Rigidbody2D _rigidbody2D;
+
+    public GameObject halo;
+    public Transform haloSpawn;
     
     void Start()
     {
@@ -16,7 +19,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        
+        if (_input.Throw)
+        {
+            Instantiate(halo, haloSpawn.position, Quaternion.identity);
+        }
     }
 
     private void FixedUpdate()

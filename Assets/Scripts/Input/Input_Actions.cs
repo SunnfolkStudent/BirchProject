@@ -9,6 +9,8 @@ public class Input_Actions : MonoBehaviour
 
     public Vector2 moveDirection;
 
+    public bool Throw;
+
     public void Update()
     {
         //moveDirection = _inputActions.Player.Move.ReadValue<Vector2>();
@@ -16,6 +18,7 @@ public class Input_Actions : MonoBehaviour
         //Vertical = _inputActions.Player.Move.ReadValue<Vector2>().y;
 
         moveDirection = RemoveDiagonal(_inputActions.Player.Move.ReadValue<Vector2>());
+        Throw = _inputActions.Player.Jump.WasPressedThisFrame();
     }
 
     private Vector2 RemoveDiagonal(Vector2 _input)
