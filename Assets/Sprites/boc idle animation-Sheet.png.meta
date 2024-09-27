@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boc idle animation-Sheet_0: -1351131565784104775
+      boc idle animation-Sheet_1: 4037387585094971448
+      boc idle animation-Sheet_2: -2546648041283163978
+      boc idle animation-Sheet_3: -5848095574782701596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
