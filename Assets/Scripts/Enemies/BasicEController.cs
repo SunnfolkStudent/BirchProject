@@ -1,18 +1,24 @@
-using System;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
     public float moveSpeed = 2.5f;
-    public Vector3 direction = Vector3.left;
-    void Start()
+    //Horizontal Direction
+    public Vector3 hDirection = Vector3.left;
+    //Vertical Direction
+    public Vector3 vDirection = Vector3.up;
+
+    private void OnCollisionEnter2D(Collision2D Border)
     {
-        
+        if (Border.gameObject.CompareTag("ScreenBorder"))
+        {
+            vDirection = vDirection * -1;
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.Translate(direction * moveSpeed * Time.deltaTime);
+        transform.Translate(hDirection * moveSpeed * Time.deltaTime);
+        transform.Translate(vDirection * moveSpeed * Time.deltaTime);
     }
 }
