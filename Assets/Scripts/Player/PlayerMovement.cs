@@ -21,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody2D.linearVelocityX = _input.Horizontal * moveSpeed;
-        _rigidbody2D.linearVelocityY = _input.Vertical * moveSpeed;
+        //_rigidbody2D.linearVelocityX = _input.Horizontal * moveSpeed;
+        //_rigidbody2D.linearVelocityY = _input.Vertical * moveSpeed;
+        _rigidbody2D.linearVelocity = _input.moveDirection * moveSpeed;
     }
 }
