@@ -8,9 +8,9 @@ public class ZigzagController : MonoBehaviour
     //Vertical Direction
     public Vector3 vDirection = Vector3.up;
 
-    private void OnCollisionEnter2D(Collision2D Border)
+    private void OnTriggerEnter2D(Collider2D border)
     {
-        if (Border.gameObject.CompareTag("ScreenBorder"))
+        if (border.gameObject.CompareTag("ScreenBorder"))
         {
             vDirection = vDirection * -1;
         }

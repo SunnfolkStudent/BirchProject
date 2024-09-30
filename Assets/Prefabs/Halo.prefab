@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2843267494641757567}
   - component: {fileID: 1696368344307944130}
   - component: {fileID: 8596287282007137471}
+  - component: {fileID: 269599570900234779}
   m_Layer: 0
   m_Name: Halo
   m_TagString: Halo
@@ -167,3 +168,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   despawnTime: 5
+--- !u!114 &269599570900234779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8243639072520144506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32429ee8208bdbc49b16b2d312a70f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

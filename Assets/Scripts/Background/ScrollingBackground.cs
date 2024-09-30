@@ -5,8 +5,8 @@ using UnityEngine;
 public class ScrollingBackground : MonoBehaviour
 {
     public float scrollSpeed = 0.02f;
-    private void FixedUpdate()
+    private void Update()
     {
-        transform.Translate(Vector3.up * scrollSpeed);
+        transform.Translate(Vector3.up * scrollSpeed * Time.deltaTime);
     }
 }

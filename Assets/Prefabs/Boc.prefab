@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 6961266896292262380}
   - component: {fileID: 2350881982254943689}
   - component: {fileID: 596234397229991312}
+  - component: {fileID: 3595959697591179198}
+  - component: {fileID: 5442443460029150097}
   m_Layer: 0
   m_Name: Boc
   m_TagString: Untagged
@@ -168,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b5e75f05ba3f9a47a4b2e50f9c173c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 5
   halo: {fileID: 8243639072520144506, guid: 65345fe4eb1715a4787b99b5f189bbf3, type: 3}
   haloSpawn: {fileID: 7680789740435243668}
 --- !u!114 &2350881982254943689
@@ -196,8 +198,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b09e36affcd4a50aca6f7418b0c3526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDirection: {x: 0, y: 0}
+  MoveDirection: {x: 0, y: 0}
+  LRUD: 00000000
+  dir:
+  - {x: -1, y: 0}
+  - {x: 1, y: 0}
+  - {x: 0, y: 1}
+  - {x: 0, y: -1}
+  directions: []
   Throw: 0
+--- !u!114 &3595959697591179198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309838539800118897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca87ce6ef0e213b45988af843a34055a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb2D: {fileID: 8640573012043330122}
+  _animator: {fileID: 5442443460029150097}
+--- !u!95 &5442443460029150097
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309838539800118897}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e07fd5f34dae7124481554a8cd131039, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3510946261134707176
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +268,7 @@ Transform:
   m_GameObject: {fileID: 3510946261134707176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 0, z: 0}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
