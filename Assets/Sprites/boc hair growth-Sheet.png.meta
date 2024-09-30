@@ -1,61 +1,64 @@
 fileFormatVersion: 2
-guid: c9ea85eb3a09f29419ea41f7d043eb11
+guid: b5709df406ba3234f8ca6b0402882ada
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5083488035729525783
-    second: boc throwing while flapping-Sheet_0
+      213: 3365674449072709636
+    second: boc hair growth-Sheet_0
   - first:
-      213: 2674892922974990078
-    second: boc throwing while flapping-Sheet_1
+      213: 2405817297686917307
+    second: boc hair growth-Sheet_1
   - first:
-      213: 6088521943801403680
-    second: boc throwing while flapping-Sheet_2
+      213: 3089736299690759370
+    second: boc hair growth-Sheet_2
   - first:
-      213: 7816414326593850141
-    second: boc throwing while flapping-Sheet_3
+      213: -3948007123351819093
+    second: boc hair growth-Sheet_3
   - first:
-      213: -2560073545859382284
-    second: boc throwing while flapping-Sheet_4
+      213: -2423245131780535375
+    second: boc hair growth-Sheet_4
   - first:
-      213: 7541163721075997700
-    second: boc throwing while flapping-Sheet_5
+      213: -4598994437022012959
+    second: boc hair growth-Sheet_5
   - first:
-      213: 3693294507629084866
-    second: boc throwing while flapping-Sheet_6
+      213: 2253477383384636742
+    second: boc hair growth-Sheet_6
   - first:
-      213: -7244264362314820439
-    second: boc throwing while flapping-Sheet_7
+      213: 1667481039910509507
+    second: boc hair growth-Sheet_7
   - first:
-      213: 4035926581809597229
-    second: boc throwing while flapping-Sheet_8
+      213: -4124985219951523307
+    second: boc hair growth-Sheet_8
   - first:
-      213: -826018022689182685
-    second: boc throwing while flapping-Sheet_9
+      213: -5349963857590411728
+    second: boc hair growth-Sheet_9
   - first:
-      213: -4661890219482077527
-    second: boc throwing while flapping-Sheet_10
+      213: 2100760885034109475
+    second: boc hair growth-Sheet_10
   - first:
-      213: 388691360583638821
-    second: boc throwing while flapping-Sheet_11
+      213: -8396961302257674482
+    second: boc hair growth-Sheet_11
   - first:
-      213: 8809812507969741073
-    second: boc throwing while flapping-Sheet_12
+      213: 1967153836284533038
+    second: boc hair growth-Sheet_12
   - first:
-      213: -7907936273618709802
-    second: boc throwing while flapping-Sheet_13
+      213: -1389756673255454267
+    second: boc hair growth-Sheet_13
   - first:
-      213: -2489229064488682681
-    second: boc throwing while flapping-Sheet_14
+      213: -2676166405813629868
+    second: boc hair growth-Sheet_14
   - first:
-      213: -8694809509849633454
-    second: boc throwing while flapping-Sheet_15
+      213: -6998819646795315197
+    second: boc hair growth-Sheet_15
   - first:
-      213: 617909502028900782
-    second: boc throwing while flapping-Sheet_16
+      213: -1883953130348624682
+    second: boc hair growth-Sheet_16
   - first:
-      213: 6763364665682004143
-    second: boc throwing while flapping-Sheet_17
+      213: -5829220498455816804
+    second: boc hair growth-Sheet_17
+  - first:
+      213: 5851065512607628220
+    second: boc hair growth-Sheet_18
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -177,12 +180,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_0
+      name: boc hair growth-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,19 +195,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e3b462a092d379b0800000000000000
-      internalID: -5083488035729525783
+      spriteID: 400669e441745be20800000000000000
+      internalID: 3365674449072709636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_1
+      name: boc hair growth-Sheet_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,19 +217,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efe6126f0f02f1520800000000000000
-      internalID: 2674892922974990078
+      spriteID: bb07e1fe51e236120800000000000000
+      internalID: 2405817297686917307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_2
+      name: boc hair growth-Sheet_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,19 +239,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02914731376ce7450800000000000000
-      internalID: 6088521943801403680
+      spriteID: ac492b06bc2f0ea20800000000000000
+      internalID: 3089736299690759370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_3
+      name: boc hair growth-Sheet_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,19 +261,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1b86e9ba6b797c60800000000000000
-      internalID: 7816414326593850141
+      spriteID: bac27e1507cd539c0800000000000000
+      internalID: -3948007123351819093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_4
+      name: boc hair growth-Sheet_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,19 +283,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f34d248caac87cd0800000000000000
-      internalID: -2560073545859382284
+      spriteID: 1bbc68c3467ee5ed0800000000000000
+      internalID: -2423245131780535375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_5
+      name: boc hair growth-Sheet_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -302,19 +305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40c3cc3137897a860800000000000000
-      internalID: 7541163721075997700
+      spriteID: 1e92e411de61d20c0800000000000000
+      internalID: -4598994437022012959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_6
+      name: boc hair growth-Sheet_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 193
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -324,19 +327,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c0022a69c7314330800000000000000
-      internalID: 3693294507629084866
+      spriteID: 64d9402adb5f54f10800000000000000
+      internalID: 2253477383384636742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_7
+      name: boc hair growth-Sheet_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -346,19 +349,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a41439b1f3377b90800000000000000
-      internalID: -7244264362314820439
+      spriteID: 3cb909dcb25142710800000000000000
+      internalID: 1667481039910509507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_8
+      name: boc hair growth-Sheet_8
       rect:
         serializedVersion: 2
-        x: 256
+        x: 257
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -368,19 +371,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2b4158c7dd720830800000000000000
-      internalID: 4035926581809597229
+      spriteID: 51a8d0d2ccb11c6c0800000000000000
+      internalID: -4124985219951523307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_9
+      name: boc hair growth-Sheet_9
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -390,19 +393,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32c6a8b1cf46984f0800000000000000
-      internalID: -826018022689182685
+      spriteID: 03e1523873c11c5b0800000000000000
+      internalID: -5349963857590411728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_10
+      name: boc hair growth-Sheet_10
       rect:
         serializedVersion: 2
-        x: 320
+        x: 321
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -412,19 +415,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a627ed8b83ad4fb0800000000000000
-      internalID: -4661890219482077527
+      spriteID: 32a4e7605e6672d10800000000000000
+      internalID: 2100760885034109475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_11
+      name: boc hair growth-Sheet_11
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -434,19 +437,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52fd9daabb8e46500800000000000000
-      internalID: 388691360583638821
+      spriteID: e07da324f20087b80800000000000000
+      internalID: -8396961302257674482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_12
+      name: boc hair growth-Sheet_12
       rect:
         serializedVersion: 2
-        x: 384
+        x: 385
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -456,19 +459,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1116453bccdb24a70800000000000000
-      internalID: 8809812507969741073
+      spriteID: e29594eddfbbc4b10800000000000000
+      internalID: 1967153836284533038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_13
+      name: boc hair growth-Sheet_13
       rect:
         serializedVersion: 2
-        x: 416
+        x: 417
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -478,19 +481,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d2d7807bdd514290800000000000000
-      internalID: -7907936273618709802
+      spriteID: 5c9416e3ba796bce0800000000000000
+      internalID: -1389756673255454267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_14
+      name: boc hair growth-Sheet_14
       rect:
         serializedVersion: 2
-        x: 448
+        x: 449
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -500,19 +503,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74bf296ba5b747dd0800000000000000
-      internalID: -2489229064488682681
+      spriteID: 45c05a535d85cdad0800000000000000
+      internalID: -2676166405813629868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_15
+      name: boc hair growth-Sheet_15
       rect:
         serializedVersion: 2
-        x: 480
+        x: 481
         y: 0
-        width: 32
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -522,19 +525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25d69bf51d4d55780800000000000000
-      internalID: -8694809509849633454
+      spriteID: 3088db1dc923fde90800000000000000
+      internalID: -6998819646795315197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_16
+      name: boc hair growth-Sheet_16
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 32
+        width: 29
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -544,17 +547,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea965c31b61439800800000000000000
-      internalID: 617909502028900782
+      spriteID: 6d4c51c0c9adad5e0800000000000000
+      internalID: -1883953130348624682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_17
+      name: boc hair growth-Sheet_17
       rect:
         serializedVersion: 2
-        x: 544
+        x: 543
+        y: 0
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c959d1857d27a1fa0800000000000000
+      internalID: -5829220498455816804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boc hair growth-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 575
         y: 0
         width: 32
         height: 32
@@ -566,8 +591,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa88760645c4cdd50800000000000000
-      internalID: 6763364665682004143
+      spriteID: cbb348c5519233150800000000000000
+      internalID: 5851065512607628220
       vertices: []
       indices: 
       edges: []
@@ -576,7 +601,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ae815d3b41b96ba42a594b963e2e411b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -586,24 +611,25 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boc throwing while flapping-Sheet_0: -5083488035729525783
-      boc throwing while flapping-Sheet_1: 2674892922974990078
-      boc throwing while flapping-Sheet_10: -4661890219482077527
-      boc throwing while flapping-Sheet_11: 388691360583638821
-      boc throwing while flapping-Sheet_12: 8809812507969741073
-      boc throwing while flapping-Sheet_13: -7907936273618709802
-      boc throwing while flapping-Sheet_14: -2489229064488682681
-      boc throwing while flapping-Sheet_15: -8694809509849633454
-      boc throwing while flapping-Sheet_16: 617909502028900782
-      boc throwing while flapping-Sheet_17: 6763364665682004143
-      boc throwing while flapping-Sheet_2: 6088521943801403680
-      boc throwing while flapping-Sheet_3: 7816414326593850141
-      boc throwing while flapping-Sheet_4: -2560073545859382284
-      boc throwing while flapping-Sheet_5: 7541163721075997700
-      boc throwing while flapping-Sheet_6: 3693294507629084866
-      boc throwing while flapping-Sheet_7: -7244264362314820439
-      boc throwing while flapping-Sheet_8: 4035926581809597229
-      boc throwing while flapping-Sheet_9: -826018022689182685
+      boc hair growth-Sheet_0: 3365674449072709636
+      boc hair growth-Sheet_1: 2405817297686917307
+      boc hair growth-Sheet_10: 2100760885034109475
+      boc hair growth-Sheet_11: -8396961302257674482
+      boc hair growth-Sheet_12: 1967153836284533038
+      boc hair growth-Sheet_13: -1389756673255454267
+      boc hair growth-Sheet_14: -2676166405813629868
+      boc hair growth-Sheet_15: -6998819646795315197
+      boc hair growth-Sheet_16: -1883953130348624682
+      boc hair growth-Sheet_17: -5829220498455816804
+      boc hair growth-Sheet_18: 5851065512607628220
+      boc hair growth-Sheet_2: 3089736299690759370
+      boc hair growth-Sheet_3: -3948007123351819093
+      boc hair growth-Sheet_4: -2423245131780535375
+      boc hair growth-Sheet_5: -4598994437022012959
+      boc hair growth-Sheet_6: 2253477383384636742
+      boc hair growth-Sheet_7: 1667481039910509507
+      boc hair growth-Sheet_8: -4124985219951523307
+      boc hair growth-Sheet_9: -5349963857590411728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

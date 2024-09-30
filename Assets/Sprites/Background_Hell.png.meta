@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c4a718fcfe3ff7543885b6e13e82f380
+guid: 31335a72bdeddb340bb3fa6a82541b53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8933292174209087218
-    second: colors for THE GAME_0
+      213: 3296573176544337590
+    second: Background_Hell_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: colors for THE GAME_0
+      name: Background_Hell_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 32
+        width: 3200
+        height: 2240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e098d712912960480800000000000000
-      internalID: -8933292174209087218
+      spriteID: 6be910c86d7cfbd20800000000000000
+      internalID: 3296573176544337590
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      colors for THE GAME_0: -8933292174209087218
+      Background_Hell_0: 3296573176544337590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

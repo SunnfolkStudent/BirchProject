@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 051fa1d1be78dae48a774fa4d6e885dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveTime: 5
+  waveTime: 8
 --- !u!1001 &2028051309862867542
 PrefabInstance:
   m_ObjectHideFlags: 0
