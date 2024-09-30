@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: c4a718fcfe3ff7543885b6e13e82f380
+guid: 6d27187e38be53f4797485a6441bc7e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8933292174209087218
-    second: colors for THE GAME_0
+      213: 7426164284211462956
+    second: angel death explosion-Sheet-Sheet_0
+  - first:
+      213: 3654862574960399851
+    second: angel death explosion-Sheet-Sheet_1
+  - first:
+      213: -1938238410937989104
+    second: angel death explosion-Sheet-Sheet_2
+  - first:
+      213: 3039065464056722891
+    second: angel death explosion-Sheet-Sheet_3
+  - first:
+      213: 3835560941936273664
+    second: angel death explosion-Sheet-Sheet_4
+  - first:
+      213: -8059173167948482561
+    second: angel death explosion-Sheet-Sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,12 +141,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: colors for THE GAME_0
+      name: angel death explosion-Sheet-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +156,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e098d712912960480800000000000000
-      internalID: -8933292174209087218
+      spriteID: c230e1c22190f0760800000000000000
+      internalID: 7426164284211462956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel death explosion-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5526bc52ea8b230800000000000000
+      internalID: 3654862574960399851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel death explosion-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018060a3f6ef915e0800000000000000
+      internalID: -1938238410937989104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angel death explosion-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5324a10fdec2a20800000000000000
+      internalID: 3039065464056722891
       vertices: []
       indices: 
       edges: []
@@ -151,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 48ba12258af16a5488d3ac3bd15c027e
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +242,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      colors for THE GAME_0: -8933292174209087218
+      angel death explosion-Sheet-Sheet_0: 7426164284211462956
+      angel death explosion-Sheet-Sheet_1: 3654862574960399851
+      angel death explosion-Sheet-Sheet_2: -1938238410937989104
+      angel death explosion-Sheet-Sheet_3: 3039065464056722891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,3 @@
-using System;
-using NUnit.Framework;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class WaveController : MonoBehaviour
@@ -15,18 +12,18 @@ public class WaveController : MonoBehaviour
         currentWave = myWaves[waveNum - 1];
         Instantiate(currentWave, transform.position, Quaternion.identity, this.gameObject.transform);
         print(currentWave);
+        print("Instant");
     }
     
     
     void Start()
     {
         CreateNewWave();
-        print("Instant");
     }
 
     void Update()
     {
-        if (this.transform.childCount == 0 && waveNum <= myWaves.Length)
+        if (this.transform.childCount == 0 && waveNum < myWaves.Length)
         {
             CreateNewWave();
         }
