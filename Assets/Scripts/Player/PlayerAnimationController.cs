@@ -21,7 +21,7 @@ public class BocAnimationController : MonoBehaviour
         {
             print(rb2D.linearVelocityY);
             print(Vector2.zero.y);
-            animationCooldown = Time.time + 0.7f;
+            animationCooldown = Time.time + 0.5f;
             
             if (rb2D.linearVelocityY > Vector2.zero.y)
             {

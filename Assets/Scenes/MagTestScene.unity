@@ -859,11 +859,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2031736443601290903, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.914
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 2031736443601290903, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.364
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2031736443601290903, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -957,6 +957,10 @@ PrefabInstance:
     - target: {fileID: 6247771517420485711, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: m_Name
       value: WaveSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 6247771517420485711, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
