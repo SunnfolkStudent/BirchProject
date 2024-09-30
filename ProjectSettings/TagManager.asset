@@ -6,11 +6,12 @@ TagManager:
   tags:
   - ScreenBorder
   - Halo
+  - KillBox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 
