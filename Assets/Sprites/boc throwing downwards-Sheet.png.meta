@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: c9ea85eb3a09f29419ea41f7d043eb11
+guid: 0b98bca3f537cde4d8357028a6d6b740
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5083488035729525783
-    second: boc throwing while flapping-Sheet_0
+      213: 938149520108000062
+    second: boc throwing downwards-Sheet_0
   - first:
-      213: 2674892922974990078
-    second: boc throwing while flapping-Sheet_1
+      213: -8578344156080253271
+    second: boc throwing downwards-Sheet_1
   - first:
-      213: 6088521943801403680
-    second: boc throwing while flapping-Sheet_2
+      213: -3788381085089359127
+    second: boc throwing downwards-Sheet_2
   - first:
-      213: 7816414326593850141
-    second: boc throwing while flapping-Sheet_3
+      213: 2799145455087146092
+    second: boc throwing downwards-Sheet_3
   - first:
-      213: -2560073545859382284
-    second: boc throwing while flapping-Sheet_4
+      213: -2521066180463492410
+    second: boc throwing downwards-Sheet_4
   - first:
-      213: 7541163721075997700
-    second: boc throwing while flapping-Sheet_5
+      213: -5161830913571223819
+    second: boc throwing downwards-Sheet_5
   - first:
-      213: 3693294507629084866
-    second: boc throwing while flapping-Sheet_6
+      213: 5915000270473740685
+    second: boc throwing downwards-Sheet_6
   - first:
-      213: -7244264362314820439
-    second: boc throwing while flapping-Sheet_7
+      213: 224555300856833638
+    second: boc throwing downwards-Sheet_7
   - first:
-      213: 4035926581809597229
-    second: boc throwing while flapping-Sheet_8
+      213: -895460535388374859
+    second: boc throwing downwards-Sheet_8
   - first:
-      213: -826018022689182685
-    second: boc throwing while flapping-Sheet_9
+      213: -7225224075383524906
+    second: boc throwing downwards-Sheet_9
   - first:
-      213: -4661890219482077527
-    second: boc throwing while flapping-Sheet_10
+      213: -2787293434643860430
+    second: boc throwing downwards-Sheet_10
   - first:
-      213: 388691360583638821
-    second: boc throwing while flapping-Sheet_11
+      213: -8012404231615203294
+    second: boc throwing downwards-Sheet_11
   - first:
-      213: 8809812507969741073
-    second: boc throwing while flapping-Sheet_12
+      213: 9123153137713508351
+    second: boc throwing downwards-Sheet_12
   - first:
-      213: -7907936273618709802
-    second: boc throwing while flapping-Sheet_13
+      213: 6698000083087797956
+    second: boc throwing downwards-Sheet_13
   - first:
-      213: -2489229064488682681
-    second: boc throwing while flapping-Sheet_14
+      213: -5686815547628953353
+    second: boc throwing downwards-Sheet_14
   - first:
-      213: -8694809509849633454
-    second: boc throwing while flapping-Sheet_15
+      213: 4906864526669426307
+    second: boc throwing downwards-Sheet_15
   - first:
-      213: 617909502028900782
-    second: boc throwing while flapping-Sheet_16
+      213: 7385778023672515503
+    second: boc throwing downwards-Sheet_16
   - first:
-      213: 6763364665682004143
-    second: boc throwing while flapping-Sheet_17
+      213: -8396313894834342425
+    second: boc throwing downwards-Sheet_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -177,7 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_0
+      name: boc throwing downwards-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e3b462a092d379b0800000000000000
-      internalID: -5083488035729525783
+      spriteID: e339d3c940af40d00800000000000000
+      internalID: 938149520108000062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_1
+      name: boc throwing downwards-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efe6126f0f02f1520800000000000000
-      internalID: 2674892922974990078
+      spriteID: 9a6d9c7a07993f880800000000000000
+      internalID: -8578344156080253271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_2
+      name: boc throwing downwards-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02914731376ce7450800000000000000
-      internalID: 6088521943801403680
+      spriteID: 9ea907d8977fc6bc0800000000000000
+      internalID: -3788381085089359127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_3
+      name: boc throwing downwards-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1b86e9ba6b797c60800000000000000
-      internalID: 7816414326593850141
+      spriteID: c645e1df5ff88d620800000000000000
+      internalID: 2799145455087146092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_4
+      name: boc throwing downwards-Sheet_4
       rect:
         serializedVersion: 2
         x: 128
@@ -280,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f34d248caac87cd0800000000000000
-      internalID: -2560073545859382284
+      spriteID: 6c209328aaf530dd0800000000000000
+      internalID: -2521066180463492410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_5
+      name: boc throwing downwards-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -302,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40c3cc3137897a860800000000000000
-      internalID: 7541163721075997700
+      spriteID: 5f605f5f12e7d58b0800000000000000
+      internalID: -5161830913571223819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_6
+      name: boc throwing downwards-Sheet_6
       rect:
         serializedVersion: 2
         x: 192
@@ -324,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c0022a69c7314330800000000000000
-      internalID: 3693294507629084866
+      spriteID: d814def286d461250800000000000000
+      internalID: 5915000270473740685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_7
+      name: boc throwing downwards-Sheet_7
       rect:
         serializedVersion: 2
         x: 224
@@ -346,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a41439b1f3377b90800000000000000
-      internalID: -7244264362314820439
+      spriteID: 666a00c3bd7cd1300800000000000000
+      internalID: 224555300856833638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_8
+      name: boc throwing downwards-Sheet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2b4158c7dd720830800000000000000
-      internalID: 4035926581809597229
+      spriteID: 5b87bcd236fa293f0800000000000000
+      internalID: -895460535388374859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_9
+      name: boc throwing downwards-Sheet_9
       rect:
         serializedVersion: 2
         x: 288
@@ -390,14 +390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32c6a8b1cf46984f0800000000000000
-      internalID: -826018022689182685
+      spriteID: 6d13a2cfbf8dabb90800000000000000
+      internalID: -7225224075383524906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_10
+      name: boc throwing downwards-Sheet_10
       rect:
         serializedVersion: 2
         x: 320
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a627ed8b83ad4fb0800000000000000
-      internalID: -4661890219482077527
+      spriteID: 234364f836b8159d0800000000000000
+      internalID: -2787293434643860430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_11
+      name: boc throwing downwards-Sheet_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52fd9daabb8e46500800000000000000
-      internalID: 388691360583638821
+      spriteID: 2283db98dc83ec090800000000000000
+      internalID: -8012404231615203294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_12
+      name: boc throwing downwards-Sheet_12
       rect:
         serializedVersion: 2
         x: 384
@@ -456,14 +456,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1116453bccdb24a70800000000000000
-      internalID: 8809812507969741073
+      spriteID: fff67e43173fb9e70800000000000000
+      internalID: 9123153137713508351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_13
+      name: boc throwing downwards-Sheet_13
       rect:
         serializedVersion: 2
         x: 416
@@ -478,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d2d7807bdd514290800000000000000
-      internalID: -7907936273618709802
+      spriteID: 4ce2cf9869314fc50800000000000000
+      internalID: 6698000083087797956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_14
+      name: boc throwing downwards-Sheet_14
       rect:
         serializedVersion: 2
         x: 448
@@ -500,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74bf296ba5b747dd0800000000000000
-      internalID: -2489229064488682681
+      spriteID: 7f06864b36f5411b0800000000000000
+      internalID: -5686815547628953353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_15
+      name: boc throwing downwards-Sheet_15
       rect:
         serializedVersion: 2
         x: 480
@@ -522,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25d69bf51d4d55780800000000000000
-      internalID: -8694809509849633454
+      spriteID: 38ea8111a4fa81440800000000000000
+      internalID: 4906864526669426307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_16
+      name: boc throwing downwards-Sheet_16
       rect:
         serializedVersion: 2
         x: 512
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea965c31b61439800800000000000000
-      internalID: 617909502028900782
+      spriteID: fab03e22bfd8f7660800000000000000
+      internalID: 7385778023672515503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing while flapping-Sheet_17
+      name: boc throwing downwards-Sheet_17
       rect:
         serializedVersion: 2
         x: 544
@@ -566,8 +566,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa88760645c4cdd50800000000000000
-      internalID: 6763364665682004143
+      spriteID: 7e5f8bb8ffc4a7b80800000000000000
+      internalID: -8396313894834342425
       vertices: []
       indices: 
       edges: []
@@ -576,7 +576,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ae815d3b41b96ba42a594b963e2e411b
+    spriteID: 33ba324d758e70040a345cbe76c68b21
     internalID: 0
     vertices: []
     indices: 
@@ -586,24 +586,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boc throwing while flapping-Sheet_0: -5083488035729525783
-      boc throwing while flapping-Sheet_1: 2674892922974990078
-      boc throwing while flapping-Sheet_10: -4661890219482077527
-      boc throwing while flapping-Sheet_11: 388691360583638821
-      boc throwing while flapping-Sheet_12: 8809812507969741073
-      boc throwing while flapping-Sheet_13: -7907936273618709802
-      boc throwing while flapping-Sheet_14: -2489229064488682681
-      boc throwing while flapping-Sheet_15: -8694809509849633454
-      boc throwing while flapping-Sheet_16: 617909502028900782
-      boc throwing while flapping-Sheet_17: 6763364665682004143
-      boc throwing while flapping-Sheet_2: 6088521943801403680
-      boc throwing while flapping-Sheet_3: 7816414326593850141
-      boc throwing while flapping-Sheet_4: -2560073545859382284
-      boc throwing while flapping-Sheet_5: 7541163721075997700
-      boc throwing while flapping-Sheet_6: 3693294507629084866
-      boc throwing while flapping-Sheet_7: -7244264362314820439
-      boc throwing while flapping-Sheet_8: 4035926581809597229
-      boc throwing while flapping-Sheet_9: -826018022689182685
+      boc throwing downwards-Sheet_0: 938149520108000062
+      boc throwing downwards-Sheet_1: -8578344156080253271
+      boc throwing downwards-Sheet_10: -2787293434643860430
+      boc throwing downwards-Sheet_11: -8012404231615203294
+      boc throwing downwards-Sheet_12: 9123153137713508351
+      boc throwing downwards-Sheet_13: 6698000083087797956
+      boc throwing downwards-Sheet_14: -5686815547628953353
+      boc throwing downwards-Sheet_15: 4906864526669426307
+      boc throwing downwards-Sheet_16: 7385778023672515503
+      boc throwing downwards-Sheet_17: -8396313894834342425
+      boc throwing downwards-Sheet_2: -3788381085089359127
+      boc throwing downwards-Sheet_3: 2799145455087146092
+      boc throwing downwards-Sheet_4: -2521066180463492410
+      boc throwing downwards-Sheet_5: -5161830913571223819
+      boc throwing downwards-Sheet_6: 5915000270473740685
+      boc throwing downwards-Sheet_7: 224555300856833638
+      boc throwing downwards-Sheet_8: -895460535388374859
+      boc throwing downwards-Sheet_9: -7225224075383524906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
