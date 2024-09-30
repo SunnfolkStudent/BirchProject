@@ -29,6 +29,7 @@ public class Input_Actions : MonoBehaviour
     {
         if (Gamepad.current != null)
         {
+            //Joystick is a bit funky, but otherwise the dpad is working as intended.
             LRUD[0] = Keyboard.current.aKey.isPressed || Gamepad.current.dpad.left.isPressed ||
                       Gamepad.current.leftStick.value.x < 0
                 ? true
