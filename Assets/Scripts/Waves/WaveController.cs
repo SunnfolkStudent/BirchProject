@@ -11,7 +11,6 @@ public class WaveController : MonoBehaviour
         waveNum++;
         currentWave = myWaves[waveNum - 1];
         Instantiate(currentWave, transform.position, Quaternion.identity, this.gameObject.transform);
-        print(currentWave);
     }
     
     
