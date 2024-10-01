@@ -172,7 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   halo: {fileID: 8243639072520144506, guid: 65345fe4eb1715a4787b99b5f189bbf3, type: 3}
-  haloSpawn: {fileID: 7680789740435243668}
+  haloSpawn: {x: 0, y: 0}
+  haloSpeed: 10
+  spawnTime: 0.2
 --- !u!114 &2350881982254943689
 MonoBehaviour:
   m_ObjectHideFlags: 0
