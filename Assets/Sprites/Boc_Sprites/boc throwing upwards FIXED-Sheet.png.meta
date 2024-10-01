@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: b2921083601a2f0438b628f3c20c5ed7
+guid: 3bbd387523507f3459406e0a66692a2b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6166647294434385217
-    second: boc throwing upwards-Sheet_0
+      213: -2374381631121157716
+    second: boc throwing upwards FIXED-Sheet_0
   - first:
-      213: 8249307583388308065
-    second: boc throwing upwards-Sheet_1
+      213: -8716796618248654713
+    second: boc throwing upwards FIXED-Sheet_1
   - first:
-      213: 4714809396861013863
-    second: boc throwing upwards-Sheet_2
+      213: 6099249128245936158
+    second: boc throwing upwards FIXED-Sheet_2
   - first:
-      213: -4595426454271458803
-    second: boc throwing upwards-Sheet_3
+      213: 4205119490351823831
+    second: boc throwing upwards FIXED-Sheet_3
   - first:
-      213: -9126544896600671390
-    second: boc throwing upwards-Sheet_4
+      213: -100639209763705296
+    second: boc throwing upwards FIXED-Sheet_4
   - first:
-      213: -7554416598518846387
-    second: boc throwing upwards-Sheet_5
+      213: 1291756028908148631
+    second: boc throwing upwards FIXED-Sheet_5
   - first:
-      213: -8300615493647306789
-    second: boc throwing upwards-Sheet_6
+      213: -5987759015833522799
+    second: boc throwing upwards FIXED-Sheet_6
   - first:
-      213: 1575896369679227488
-    second: boc throwing upwards-Sheet_7
+      213: -1764923682301892207
+    second: boc throwing upwards FIXED-Sheet_7
   - first:
-      213: 7688973695101810469
-    second: boc throwing upwards-Sheet_8
+      213: -1854898313037264012
+    second: boc throwing upwards FIXED-Sheet_8
   - first:
-      213: -9154498999814386702
-    second: boc throwing upwards-Sheet_9
+      213: -4812724509685249834
+    second: boc throwing upwards FIXED-Sheet_9
   - first:
-      213: 3557938610601436515
-    second: boc throwing upwards-Sheet_10
+      213: -8203567639020288665
+    second: boc throwing upwards FIXED-Sheet_10
   - first:
-      213: 1644574056725905050
-    second: boc throwing upwards-Sheet_11
+      213: 7561176400444765659
+    second: boc throwing upwards FIXED-Sheet_11
   - first:
-      213: -7883622669617420321
-    second: boc throwing upwards-Sheet_12
+      213: -2206945371782008261
+    second: boc throwing upwards FIXED-Sheet_12
   - first:
-      213: -4610643556356891710
-    second: boc throwing upwards-Sheet_13
+      213: -7899332853270016806
+    second: boc throwing upwards FIXED-Sheet_13
   - first:
-      213: 3506335829617713338
-    second: boc throwing upwards-Sheet_14
+      213: 794341574111919455
+    second: boc throwing upwards FIXED-Sheet_14
   - first:
-      213: -1306424521238337089
-    second: boc throwing upwards-Sheet_15
+      213: 341186769561165787
+    second: boc throwing upwards FIXED-Sheet_15
   - first:
-      213: -9209682282902184403
-    second: boc throwing upwards-Sheet_16
+      213: -7577070660102649758
+    second: boc throwing upwards FIXED-Sheet_16
   - first:
-      213: 2085907204921982450
-    second: boc throwing upwards-Sheet_17
+      213: -4279483148131271294
+    second: boc throwing upwards FIXED-Sheet_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -177,7 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_0
+      name: boc throwing upwards FIXED-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14d92efba05549550800000000000000
-      internalID: 6166647294434385217
+      spriteID: ca19fcb8c708c0fd0800000000000000
+      internalID: -2374381631121157716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_1
+      name: boc throwing upwards FIXED-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 162dbc65a8d6b7270800000000000000
-      internalID: 8249307583388308065
+      spriteID: 78076f5c8a7b70780800000000000000
+      internalID: -8716796618248654713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_2
+      name: boc throwing upwards FIXED-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76f03939a2e5e6140800000000000000
-      internalID: 4714809396861013863
+      spriteID: e10c5b554c2e4a450800000000000000
+      internalID: 6099249128245936158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_3
+      name: boc throwing upwards FIXED-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0287b9ccf3c930c0800000000000000
-      internalID: -4595426454271458803
+      spriteID: 7dbfd7495e59b5a30800000000000000
+      internalID: 4205119490351823831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_4
+      name: boc throwing upwards FIXED-Sheet_4
       rect:
         serializedVersion: 2
         x: 128
@@ -280,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26b767365cff75180800000000000000
-      internalID: -9126544896600671390
+      spriteID: 03eee830c257a9ef0800000000000000
+      internalID: -100639209763705296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_5
+      name: boc throwing upwards FIXED-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -302,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4c28ffe022592790800000000000000
-      internalID: -7554416598518846387
+      spriteID: 7971a87a34d3de110800000000000000
+      internalID: 1291756028908148631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_6
+      name: boc throwing upwards FIXED-Sheet_6
       rect:
         serializedVersion: 2
         x: 192
@@ -324,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdf6c04ef2a4ecc80800000000000000
-      internalID: -8300615493647306789
+      spriteID: 19da99c46e437eca0800000000000000
+      internalID: -5987759015833522799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_7
+      name: boc throwing upwards FIXED-Sheet_7
       rect:
         serializedVersion: 2
         x: 224
@@ -346,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06ade851665bed510800000000000000
-      internalID: 1575896369679227488
+      spriteID: 199a8bc034bb187e0800000000000000
+      internalID: -1764923682301892207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_8
+      name: boc throwing upwards FIXED-Sheet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 527bdd776d8b4ba60800000000000000
-      internalID: 7688973695101810469
+      spriteID: 47b41fcdfc31246e0800000000000000
+      internalID: -1854898313037264012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_9
+      name: boc throwing upwards FIXED-Sheet_9
       rect:
         serializedVersion: 2
         x: 288
@@ -390,14 +390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fb056b89afa4f080800000000000000
-      internalID: -9154498999814386702
+      spriteID: 6d8056eae84c53db0800000000000000
+      internalID: -4812724509685249834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_10
+      name: boc throwing upwards FIXED-Sheet_10
       rect:
         serializedVersion: 2
         x: 320
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 365ab89c056506130800000000000000
-      internalID: 3557938610601436515
+      spriteID: 7654e4952b2172e80800000000000000
+      internalID: -8203567639020288665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_11
+      name: boc throwing upwards FIXED-Sheet_11
       rect:
         serializedVersion: 2
         x: 352
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9e78f92463b2d610800000000000000
-      internalID: 1644574056725905050
+      spriteID: bd5b39810e1bee860800000000000000
+      internalID: 7561176400444765659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_12
+      name: boc throwing upwards FIXED-Sheet_12
       rect:
         serializedVersion: 2
         x: 384
@@ -456,14 +456,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd7ac3283feb79290800000000000000
-      internalID: -7883622669617420321
+      spriteID: b32bd3490ea5f51e0800000000000000
+      internalID: -2206945371782008261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_13
+      name: boc throwing upwards FIXED-Sheet_13
       rect:
         serializedVersion: 2
         x: 416
@@ -478,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cb576d1d14b300c0800000000000000
-      internalID: -4610643556356891710
+      spriteID: adc84465f9eef5290800000000000000
+      internalID: -7899332853270016806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_14
+      name: boc throwing upwards FIXED-Sheet_14
       rect:
         serializedVersion: 2
         x: 448
@@ -500,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab0a6931cd109a030800000000000000
-      internalID: 3506335829617713338
+      spriteID: f5df34bf371160b00800000000000000
+      internalID: 794341574111919455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_15
+      name: boc throwing upwards FIXED-Sheet_15
       rect:
         serializedVersion: 2
         x: 480
@@ -522,14 +522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb9aab5d1d5aedde0800000000000000
-      internalID: -1306424521238337089
+      spriteID: bdf91c92f832cb400800000000000000
+      internalID: 341186769561165787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_16
+      name: boc throwing upwards FIXED-Sheet_16
       rect:
         serializedVersion: 2
         x: 512
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2e186932c2a03080800000000000000
-      internalID: -9209682282902184403
+      spriteID: 2680c823166d8d690800000000000000
+      internalID: -7577070660102649758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc throwing upwards-Sheet_17
+      name: boc throwing upwards FIXED-Sheet_17
       rect:
         serializedVersion: 2
         x: 544
@@ -566,8 +566,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fd7dcf1d81a2fc10800000000000000
-      internalID: 2085907204921982450
+      spriteID: 28d7d5d10c83c94c0800000000000000
+      internalID: -4279483148131271294
       vertices: []
       indices: 
       edges: []
@@ -576,7 +576,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 864d2d458ae364941b9338aa5e93c82c
+    spriteID: 43c5f795554fb8d4aab621cc82a6d115
     internalID: 0
     vertices: []
     indices: 
@@ -586,24 +586,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boc throwing upwards-Sheet_0: 6166647294434385217
-      boc throwing upwards-Sheet_1: 8249307583388308065
-      boc throwing upwards-Sheet_10: 3557938610601436515
-      boc throwing upwards-Sheet_11: 1644574056725905050
-      boc throwing upwards-Sheet_12: -7883622669617420321
-      boc throwing upwards-Sheet_13: -4610643556356891710
-      boc throwing upwards-Sheet_14: 3506335829617713338
-      boc throwing upwards-Sheet_15: -1306424521238337089
-      boc throwing upwards-Sheet_16: -9209682282902184403
-      boc throwing upwards-Sheet_17: 2085907204921982450
-      boc throwing upwards-Sheet_2: 4714809396861013863
-      boc throwing upwards-Sheet_3: -4595426454271458803
-      boc throwing upwards-Sheet_4: -9126544896600671390
-      boc throwing upwards-Sheet_5: -7554416598518846387
-      boc throwing upwards-Sheet_6: -8300615493647306789
-      boc throwing upwards-Sheet_7: 1575896369679227488
-      boc throwing upwards-Sheet_8: 7688973695101810469
-      boc throwing upwards-Sheet_9: -9154498999814386702
+      boc throwing upwards FIXED-Sheet_0: -2374381631121157716
+      boc throwing upwards FIXED-Sheet_1: -8716796618248654713
+      boc throwing upwards FIXED-Sheet_10: -8203567639020288665
+      boc throwing upwards FIXED-Sheet_11: 7561176400444765659
+      boc throwing upwards FIXED-Sheet_12: -2206945371782008261
+      boc throwing upwards FIXED-Sheet_13: -7899332853270016806
+      boc throwing upwards FIXED-Sheet_14: 794341574111919455
+      boc throwing upwards FIXED-Sheet_15: 341186769561165787
+      boc throwing upwards FIXED-Sheet_16: -7577070660102649758
+      boc throwing upwards FIXED-Sheet_17: -4279483148131271294
+      boc throwing upwards FIXED-Sheet_2: 6099249128245936158
+      boc throwing upwards FIXED-Sheet_3: 4205119490351823831
+      boc throwing upwards FIXED-Sheet_4: -100639209763705296
+      boc throwing upwards FIXED-Sheet_5: 1291756028908148631
+      boc throwing upwards FIXED-Sheet_6: -5987759015833522799
+      boc throwing upwards FIXED-Sheet_7: -1764923682301892207
+      boc throwing upwards FIXED-Sheet_8: -1854898313037264012
+      boc throwing upwards FIXED-Sheet_9: -4812724509685249834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

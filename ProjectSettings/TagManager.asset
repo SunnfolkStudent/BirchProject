@@ -7,6 +7,7 @@ TagManager:
   - ScreenBorder
   - Halo
   - KillBox
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
