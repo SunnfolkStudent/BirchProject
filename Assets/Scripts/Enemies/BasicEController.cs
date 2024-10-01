@@ -14,7 +14,6 @@ public class EnemyController : MonoBehaviour
     void OnDestroy()
     {
         Instantiate(body, transform.position, Quaternion.identity);
-        print("Destroyed");
     }
     
     void Update()

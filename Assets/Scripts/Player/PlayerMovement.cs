@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Input_Actions _input;
     private Rigidbody2D _rigidbody2D;
+    private SpriteRenderer _spriteRenderer;
 
     public GameObject halo;
     public Vector2 haloSpawn;
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<Input_Actions>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
 
         if (_lookVector == Vector2.zero)
         {
@@ -43,6 +45,15 @@ public class PlayerMovement : MonoBehaviour
         if (_input.MoveDirection != Vector2.zero)
         {
             _lookVector = _input.MoveDirection;
+        }
+        
+        //Flip Sprite if Facing left
+        if (_input.MoveDirection.x < Vector2.zero.x)
+            _spriteRenderer.flipX = true;
+        
+        else if (_input.MoveDirection.x > Vector2.zero.x)
+        {
+            _spriteRenderer.flipX = false;
         }
     }
 

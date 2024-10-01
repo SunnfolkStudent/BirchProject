@@ -19,14 +19,12 @@ public class BocAnimationController : MonoBehaviour
     {
         if (_input.Throw)
         {
-            print(rb2D.linearVelocityY);
-            print(Vector2.zero.y);
+            //Half Second cooldown on attacks
             animationCooldown = Time.time + 0.5f;
             
             if (rb2D.linearVelocityY > Vector2.zero.y)
             {
                 _animator.Play("Boc_Up_Throw");
-                print("Boc_Up_Throw");
             }
 
             else if (rb2D.linearVelocityY < Vector2.zero.y)
