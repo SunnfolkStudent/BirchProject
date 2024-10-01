@@ -2,18 +2,25 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class StartController : MonoBehaviour
+namespace Player
 {
-    //Make it check for input AND also the current scene, if it is the start menu then it will go to gameplay mode
-    void Update()
+    public class StartController : MonoBehaviour
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;
-
-        if (sceneName == "StartMenuScene" && Keyboard.current.anyKey.wasPressedThisFrame)
+        //Make it check for input AND also the current scene, if it is the start menu then it will go to gameplay mode
+        void Update()
         {
-            Debug.Log("Input Detected!");
-            SceneManager.LoadScene("MagTestScene");
+            Scene currentScene = SceneManager.GetActiveScene();
+            string sceneName = currentScene.name;
+
+            if (sceneName == "StartMenuScene" && Keyboard.current.anyKey.wasPressedThisFrame)
+            {
+                Debug.Log("Input Detected!");
+                SceneManager.LoadScene("MagTestScene");
+            
+            }
+            
+            
+            
         }
     }
 }
