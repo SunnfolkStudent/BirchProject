@@ -24,8 +24,11 @@ public class PlayerCollision : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Halo")) return;
-        playerHealth--;
-        Destroy(other.gameObject);
+        if (other.gameObject.layer == 3)
+        {
+            playerHealth--;
+            Destroy(other.gameObject);
+        }
         if (playerHealth == 0)
         {
             playerIsDead = true;

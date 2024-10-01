@@ -21,7 +21,6 @@ public class HaloMovement : MonoBehaviour
         if (_rigidbody2D.linearVelocityY > _rigidbody2D.linearVelocityX)
         {
             _transform.rotation = Quaternion.Euler(0f, 0f, 90f);
-            print("Halo");
         }
     }
 }

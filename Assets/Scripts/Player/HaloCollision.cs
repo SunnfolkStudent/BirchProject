@@ -13,13 +13,8 @@ public class KillBoxController : MonoBehaviour
         
         if (other.gameObject.layer == 3)
         {
-            Destroy(this.gameObject);
             Destroy(other.gameObject);
+            Destroy(this.gameObject);
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        
     }
 }

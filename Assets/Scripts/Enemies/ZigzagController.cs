@@ -7,6 +7,8 @@ public class ZigzagController : MonoBehaviour
     public Vector3 hDirection = Vector3.left;
     //Vertical Direction
     public Vector3 vDirection = Vector3.up;
+    
+    public GameObject body;
 
     private void OnTriggerEnter2D(Collider2D border)
     {
@@ -14,6 +16,10 @@ public class ZigzagController : MonoBehaviour
         {
             vDirection = vDirection * -1;
         }
+    }
+    void OnDestroy()
+    {
+        Instantiate(body, transform.position, Quaternion.identity);
     }
 
     void Update()

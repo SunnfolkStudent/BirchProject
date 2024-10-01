@@ -36,10 +36,6 @@ public class BocAnimationController : MonoBehaviour
                 _animator.Play("Boc_Side_Throw");
             }
         }
-        else if (rb2D.linearVelocity == Vector2.zero)
-        {
-            _animator.Play("Boc_Idle");
-        }
         else
         {
             _animator.Play("Boc_Flying");

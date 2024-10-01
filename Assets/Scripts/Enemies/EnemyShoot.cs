@@ -5,19 +5,22 @@ public class ShootEnemy : MonoBehaviour
     public Vector3 shootDirection;
     public float cooldown = 0.5f;
     private float cooldownCounter = 0f;
+    private float shootSpeed = 5f;
     
     public GameObject projectile;
-
-    //Give projectile direction of shootDirection
-    void Start()
-    {
-    }
     
     void Update()
     {
         if (cooldownCounter >= cooldown)
         {
-            Instantiate(projectile, transform.position + shootDirection, transform.rotation);
+            var projectileClone = Instantiate(projectile, transform.position + shootDirection/2, transform.rotation);
+            projectileClone.GetComponent<Rigidbody2D>().linearVelocity =
+                shootDirection * shootSpeed;
+            if (!GetComponent<SpriteRenderer>().flipX)
+            {
+                projectileClone.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            print(this.GetComponent<SpriteRenderer>().flipX);
             cooldownCounter = 0f;
         }
         cooldownCounter += Time.deltaTime;

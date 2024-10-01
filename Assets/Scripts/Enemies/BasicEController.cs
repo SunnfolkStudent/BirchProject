@@ -5,9 +5,7 @@ public class EnemyController : MonoBehaviour
 {
     public float moveSpeed = 2.5f;
     //Horizontal Direction
-    public Vector2 hDirection = Vector2.left;
-    //Vertical Direction
-    public Vector2 vDirection = Vector2.up;
+    public Vector2 direction;
 
     public GameObject body;
 
@@ -18,7 +16,6 @@ public class EnemyController : MonoBehaviour
     
     void Update()
     {
-        transform.Translate(hDirection * moveSpeed * Time.deltaTime);
-        transform.Translate(vDirection * moveSpeed * Time.deltaTime);
+        transform.Translate(direction * moveSpeed * Time.deltaTime);
     }
 }
