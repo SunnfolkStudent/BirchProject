@@ -29,7 +29,7 @@ namespace Player
     private IEnumerator VoiceLineWait()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("MagTestScene");
+        SceneManager.LoadScene("MainScene");
     }
     }
 }
