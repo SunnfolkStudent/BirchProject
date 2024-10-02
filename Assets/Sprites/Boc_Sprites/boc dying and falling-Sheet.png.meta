@@ -510,7 +510,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boc dying and falling-Sheet_0: -5660314381469562061
+      boc dying and falling-Sheet_1: 274645663425600965
+      boc dying and falling-Sheet_10: -1506136318529125971
+      boc dying and falling-Sheet_11: -2584533837521525692
+      boc dying and falling-Sheet_12: -3438999658602741407
+      boc dying and falling-Sheet_13: -448393338968056768
+      boc dying and falling-Sheet_14: -1781296007685093720
+      boc dying and falling-Sheet_2: -8487912166527180987
+      boc dying and falling-Sheet_3: -4487042402877664169
+      boc dying and falling-Sheet_4: -3761326083009699061
+      boc dying and falling-Sheet_5: -7819847638976114699
+      boc dying and falling-Sheet_6: -4377443568646732888
+      boc dying and falling-Sheet_7: -1614339272983378047
+      boc dying and falling-Sheet_8: 5963183747801548842
+      boc dying and falling-Sheet_9: -2480519954663150162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

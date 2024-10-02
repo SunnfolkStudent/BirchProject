@@ -16,6 +16,7 @@ public class ShootEnemy : MonoBehaviour
             var projectileClone = Instantiate(projectile, transform.position + shootDirection/2, transform.rotation);
             projectileClone.GetComponent<Rigidbody2D>().linearVelocity =
                 shootDirection * shootSpeed;
+            Destroy(projectileClone, 4f);
             if (!GetComponent<SpriteRenderer>().flipX)
             {
                 projectileClone.GetComponent<SpriteRenderer>().flipX = true;

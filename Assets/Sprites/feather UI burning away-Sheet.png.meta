@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feather UI burning away-Sheet_0: -8372430052393046189
+      feather UI burning away-Sheet_1: -4115192026382321024
+      feather UI burning away-Sheet_2: 2967269718576111923
+      feather UI burning away-Sheet_3: 2720347656698311116
+      feather UI burning away-Sheet_4: -5013572432773433493
+      feather UI burning away-Sheet_5: -8918176514422278859
+      feather UI burning away-Sheet_6: -1082158129593970803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
