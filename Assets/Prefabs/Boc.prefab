@@ -202,6 +202,9 @@ MonoBehaviour:
   timerInvinc: 0
   animationController: {fileID: 0}
   bottomBorder: {fileID: 0}
+  gethitsound:
+  - {fileID: 8300000, guid: 1940e2b7eb0698a4ab35b5e6d1e7c7a7, type: 3}
+  - {fileID: 8300000, guid: 0b2a559ad946f324ca8f82f5fab3a766, type: 3}
   enemySpawner: {fileID: 0}
 --- !u!114 &596234397229991312
 MonoBehaviour:
@@ -274,7 +277,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.496
   m_Pitch: 1
   Loop: 0
   Mute: 0
