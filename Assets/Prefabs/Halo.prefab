@@ -203,3 +203,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32429ee8208bdbc49b16b2d312a70f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyDeath:
+  - {fileID: 8300000, guid: 28e373526a8d3a54491d899f29e93db6, type: 3}
+  - {fileID: 8300000, guid: ed73c0669733fd1419a970e192d7c878, type: 3}
+  - {fileID: 8300000, guid: 7b37a2efc33a2d540aa117432bdbe02b, type: 3}
+  haloHit: {fileID: 8300000, guid: 83fb59f40ad7079469f344a99f19b643, type: 3}

@@ -227,22 +227,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: gethitsound.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: 'gethitsound.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 1940e2b7eb0698a4ab35b5e6d1e7c7a7, type: 3}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: 'gethitsound.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 0b2a559ad946f324ca8f82f5fab3a766, type: 3}
-    - target: {fileID: 9007490827962038031, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: m_Volume
-      value: 0.631
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
