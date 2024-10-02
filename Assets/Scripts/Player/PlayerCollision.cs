@@ -14,6 +14,17 @@ public class PlayerCollision : MonoBehaviour
 
     public GameObject bottomBorder;
     
+    [Header("Audio")]
+    
+    
+    public AudioClip[] gethitsound;
+    //public AudioClip[] coolLineSound;
+    
+    [Space(5)] 
+  
+    private AudioSource _audioSource;
+    
+    
     private Rigidbody2D _rigidbody2D;
     private Input_Actions _input;
     private PlayerMovement _playerMovement;
@@ -23,6 +34,7 @@ public class PlayerCollision : MonoBehaviour
 
     void Start()
     {
+        _audioSource = GetComponent<AudioSource>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<Input_Actions>();
         _playerMovement = GetComponent<PlayerMovement>();
@@ -34,6 +46,7 @@ public class PlayerCollision : MonoBehaviour
         if (other.gameObject.CompareTag("Halo")) return;
         if (other.gameObject.layer == 3)
         {
+            _audioSource.PlayOneShot(gethitsound[Random.Range(0, gethitsound.Length)]);
             Destroy(other.gameObject);
             if (timerInvinc > 0)
             {
@@ -43,6 +56,7 @@ public class PlayerCollision : MonoBehaviour
             timerInvinc = invincibilityTime;
             _animator.Play("Boc_Hurt");
             animationController.animationCooldown = Time.time + 0.3f;
+            
 
         }
         if (playerHealth == 0)
