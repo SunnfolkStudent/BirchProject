@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ScreenBorder
   - Halo
   - KillBox
   - EnemyProjectile
@@ -16,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - ScreenBorder
   - 
   - 
   - 
@@ -47,6 +46,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ScreenBorder
+    uniqueID: 3083453725
     locked: 0
   m_RenderingLayers:
   - Default

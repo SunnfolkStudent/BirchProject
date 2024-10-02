@@ -6,13 +6,14 @@ public class BocAnimationController : MonoBehaviour
     public Rigidbody2D rb2D;
     public Animator _animator;
 
-    private float animationCooldown = 0;
+    public float animationCooldown = 0;
     
     private Input_Actions _input;
 
     void Start()
     {
         _input = GetComponent<Input_Actions>();
+        _animator = GetComponent<Animator>();
     }
     
     private void UpdateAnimation()
