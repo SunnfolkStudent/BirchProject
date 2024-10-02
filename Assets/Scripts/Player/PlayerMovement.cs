@@ -13,9 +13,9 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Audio")]
     
-    public AudioClip[] hurtSound;
+    //public AudioClip[] hurtSound;
     public AudioClip[] shootingSound;
-    public AudioClip[] coolLineSound;
+    //public AudioClip[] coolLineSound;
     public AudioClip playerFlapSound;
     [Space(5)] 
     public float flapTime = 0.7f;
