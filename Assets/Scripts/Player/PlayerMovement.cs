@@ -10,7 +10,19 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject halo;
     public Vector2 haloSpawn;
-
+    
+    [Header("Audio")]
+    
+    public AudioClip[] hurtSound;
+    public AudioClip[] shootingSound;
+    public AudioClip[] coolLineSound;
+    public AudioClip playerFlapSound;
+    [Space(5)] 
+    public float flapTime = 0.7f;
+    private float _flapTimer;
+    
+    private AudioSource _audioSource;
+    [Space(10)]
     public float haloSpeed;
     public float spawnTime;
     private float spawnTimeCounter;
@@ -19,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
+        _audioSource = GetComponent<AudioSource>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _input = GetComponent<Input_Actions>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -31,8 +44,20 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
+
+        if (_flapTimer < Time.time)
+        {
+            //_audioSource.clip = playerFlapSound;
+            //_audioSource.Play();
+            
+            _audioSource.PlayOneShot(playerFlapSound);
+            _flapTimer = Time.time + flapTime + playerFlapSound.length;
+        }
+        
         if (_input.Throw)
         {
+            _audioSource.PlayOneShot(shootingSound[Random.Range(0, shootingSound.Length)]);
+            
             if (!(Time.time > spawnTimeCounter)) return; 
             var projectileClone = Instantiate(halo, UpdateSpawnPosition(), Quaternion.identity);
             projectileClone.GetComponent<Rigidbody2D>().linearVelocity =
@@ -74,3 +99,38 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D.linearVelocity = _input.MoveDirection * moveSpeed;
     }
 }
+
+/*
+Når spiller kolliderer med "enemy"
+	-hurtsound[1,2]
+
+når spiller skyter
+	-shooting_sound[1,2,3]
+
+når enemy kolliderer med skudd
+	-halo_hit
+
+hver 5 enemy Boc dreper
+	-cool_line[1,2,3,4,5,6,7,8]
+
+når du trykker start
+	-press_start_line
+
+alltid(når du spiller)
+	-player_flap
+
+når du er i "hell"
+	-hell_music
+
+når du er i "heaven"
+	-heaven_music
+
+når du er i "transition"
+	-transition_music
+
+når du er i "start_menu"
+	-start_menu_music
+
+når du har nådd toppen
+	-victory_music
+	*/
