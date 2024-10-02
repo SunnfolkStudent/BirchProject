@@ -62,7 +62,18 @@ public class PlayerMovement : MonoBehaviour
             var projectileClone = Instantiate(halo, UpdateSpawnPosition(), Quaternion.identity);
             projectileClone.GetComponent<Rigidbody2D>().linearVelocity =
                 _lookVector * haloSpeed + _rigidbody2D.linearVelocity;
-            
+            if (_lookVector == Vector2.left)
+            {
+                projectileClone.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else if (_lookVector == Vector2.up)
+                projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
+                
+            else if (_lookVector == Vector2.down)
+            {
+                projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
+                projectileClone.GetComponent<SpriteRenderer>().flipX = true;
+            }
             spawnTimeCounter = Time.time + spawnTime;
             Destroy(projectileClone, 4f);
         }

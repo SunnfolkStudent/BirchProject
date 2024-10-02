@@ -1006,6 +1006,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackgroundBox_Hell
       objectReference: {fileID: 0}
+    - target: {fileID: 7039691367532530191, guid: 539519407104cc34d9e2da8e519c2b50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7312560947994949594, guid: 539519407104cc34d9e2da8e519c2b50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029006479327455342, guid: 539519407104cc34d9e2da8e519c2b50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.47
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
