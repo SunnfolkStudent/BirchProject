@@ -4,7 +4,6 @@ public class KillBoxController : MonoBehaviour
 {
     [Header("Audio")]
     
-    
     public AudioClip[] enemyDeath;
     public AudioClip haloHit;
     //public AudioClip[] coolLineSound;
@@ -24,8 +23,9 @@ public class KillBoxController : MonoBehaviour
         
         if (other.gameObject.layer == 3)
         {
-            _audioSource.PlayOneShot(haloHit);
-            _audioSource.PlayOneShot(enemyDeath[Random.Range(0, enemyDeath.Length)]);
+            AudioSource.PlayClipAtPoint(haloHit, transform.position);
+            //_audioSource.PlayOneShot(haloHit);
+            AudioSource.PlayClipAtPoint(enemyDeath[Random.Range(0, enemyDeath.Length)], transform.position);
             Destroy(other.gameObject);
             Destroy(this.gameObject);
             
