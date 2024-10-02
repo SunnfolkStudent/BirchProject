@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4674102288691633043}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.21, y: -0.03, z: 0}
+  m_LocalPosition: {x: 18.53, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: -1, y: 0}
+  direction: {x: -0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &2183293376477529124
 Animator:
@@ -221,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 5712745398434918893}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.19, y: -1.44, z: 0}
+  m_LocalPosition: {x: -16.44, y: -1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: 1, y: 0}
+  direction: {x: 0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &6229679687654719236
 Animator:
@@ -412,7 +412,7 @@ Transform:
   m_GameObject: {fileID: 6118204247968436076}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.65, y: -1.1, z: 0}
+  m_LocalPosition: {x: 9.970001, y: -1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -549,7 +549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: -1, y: 0}
+  direction: {x: -0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &3297968345512360508
 Animator:
@@ -603,7 +603,7 @@ Transform:
   m_GameObject: {fileID: 6686716268693991917}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.579998, y: 3.11, z: 0}
+  m_LocalPosition: {x: 18.9, y: 3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: -1, y: 0}
+  direction: {x: -0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &2099357956473308788
 Animator:
@@ -794,7 +794,7 @@ Transform:
   m_GameObject: {fileID: 7521260040470142166}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.19, y: 1.56, z: 0}
+  m_LocalPosition: {x: -16.44, y: 1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: 1, y: 0}
+  direction: {x: 0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &8696305036795925275
 Animator:
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 8523770432683517756}
   - component: {fileID: 6391313161991229890}
   m_Layer: 0
-  m_Name: WaveHell_1
+  m_Name: WaveHell_Easy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 051fa1d1be78dae48a774fa4d6e885dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveTime: 10
+  waveTime: 15
 --- !u!1 &9178802389876112931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1036,7 @@ Transform:
   m_GameObject: {fileID: 9178802389876112931}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.14, y: 1.36, z: 0}
+  m_LocalPosition: {x: -6.67, y: 1.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  direction: {x: 1, y: 0}
+  direction: {x: 0.6, y: 0}
   body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
 --- !u!95 &8635823333383028144
 Animator:

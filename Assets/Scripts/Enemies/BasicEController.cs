@@ -9,9 +9,19 @@ public class EnemyController : MonoBehaviour
 
     public GameObject body;
 
+    private bool leaveBody = true;
+
+    void OnApplicationQuit()
+    {
+        leaveBody = false;
+    }
+    
     void OnDestroy()
     {
-        Instantiate(body, transform.position, Quaternion.identity);
+        if (leaveBody)
+        {
+            Instantiate(body, transform.position, Quaternion.identity);
+        }
     }
     
     void Update()
