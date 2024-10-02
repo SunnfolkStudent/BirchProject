@@ -12,7 +12,7 @@ public class PlayerHealthController : MonoBehaviour
         {
             if (i < target.playerHealth)
             {
-                hearts[i].color = new Color(1, 0, 0, 1);
+                hearts[i].color = new Color(1, 1, 1, 1);
             }
             else
             {

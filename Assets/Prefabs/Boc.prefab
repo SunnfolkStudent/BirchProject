@@ -18,9 +18,10 @@ GameObject:
   - component: {fileID: 3595959697591179198}
   - component: {fileID: 5442443460029150097}
   - component: {fileID: 9007490827962038031}
-  m_Layer: 0
+  - component: {fileID: 7649167830818779138}
+  m_Layer: 6
   m_Name: Boc
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1208040086343421634, guid: 010a2c951364e734fa124c89334f7ab7, type: 3}
+  m_Sprite: {fileID: -61974408718080294, guid: e8023f4b636ecb543ba91f2338a9c71d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -181,7 +182,7 @@ MonoBehaviour:
   playerFlapSound: {fileID: 8300000, guid: b4e488d63ebc477458ff1325bfca8b90, type: 3}
   flapTime: -0.3
   haloSpeed: 10
-  spawnTime: 0.2
+  spawnTime: 0.5
 --- !u!114 &2350881982254943689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,13 +195,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a943cdc6bb4cf642add4ef493b2b33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 3
+  playerHealth: 5
   playerIsDead: 0
-  fallSpeed: 10
-  deathTime: 2
+  fallSpeed: 5
+  deathTime: 4
   invincibilityTime: 1
   timerInvinc: 0
-  animationController: {fileID: 0}
+  animationController: {fileID: 3595959697591179198}
   bottomBorder: {fileID: 0}
   gethitsound:
   - {fileID: 8300000, guid: 1940e2b7eb0698a4ab35b5e6d1e7c7a7, type: 3}
@@ -361,6 +362,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7649167830818779138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309838539800118897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24a5cb2e3f10174999cffc33ad38850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2350881982254943689}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &3510946261134707176
 GameObject:
   m_ObjectHideFlags: 0
