@@ -20,7 +20,6 @@ public class ShootEnemy : MonoBehaviour
             {
                 projectileClone.GetComponent<SpriteRenderer>().flipX = true;
             }
-            print(this.GetComponent<SpriteRenderer>().flipX);
             cooldownCounter = 0f;
         }
         cooldownCounter += Time.deltaTime;

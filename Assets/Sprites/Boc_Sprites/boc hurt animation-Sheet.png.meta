@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: fcce03139063dff45b1cb953287316a4
+guid: 6be17f2fa3d3fcf498509fe01cb08155
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3848418430177397670
-    second: boc silly little projectile-Sheet_0
+      213: -4291383699789016525
+    second: boc hurt animation-Sheet_0
+  - first:
+      213: -4290154097780879606
+    second: boc hurt animation-Sheet_1
+  - first:
+      213: 2255549045512729339
+    second: boc hurt animation-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +132,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boc silly little projectile-Sheet_0
+      name: boc hurt animation-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a54b53ad3dba79ac0800000000000000
-      internalID: -3848418430177397670
+      spriteID: 3329c230341f174c0800000000000000
+      internalID: -4291383699789016525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc silly little projectile-Sheet_1
+      name: boc hurt animation-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -161,16 +167,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 959bcc215581c1142881a1a2c0d265ad
-      internalID: -460269466
+      spriteID: a0f851a049f4674c0800000000000000
+      internalID: -4290154097780879606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boc silly little projectile-Sheet_2
+      name: boc hurt animation-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -183,32 +189,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 85050576c2c0e0d4e864d60cc50f90c0
-      internalID: 2011466014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boc silly little projectile-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 708138967ea7e87499e8795458060846
-      internalID: -1357871468
+      spriteID: bf2f14f08e15d4f10800000000000000
+      internalID: 2255549045512729339
       vertices: []
       indices: 
       edges: []
@@ -217,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9422068386dcf95419702e00c4c0ee1c
+    spriteID: 1d60338f2f899d64296cbe108bf86cab
     internalID: 0
     vertices: []
     indices: 
@@ -227,10 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boc silly little projectile-Sheet_0: -3848418430177397670
-      boc silly little projectile-Sheet_1: -460269466
-      boc silly little projectile-Sheet_2: 2011466014
-      boc silly little projectile-Sheet_3: -1357871468
+      boc hurt animation-Sheet_0: -4291383699789016525
+      boc hurt animation-Sheet_1: -4290154097780879606
+      boc hurt animation-Sheet_2: 2255549045512729339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,6 +7,8 @@ public class PlayerCollision : MonoBehaviour
     public bool playerIsDead;
     public float fallSpeed = 10f;
     public float deathTime = 2f;
+    public float invincibilityTime = 1f;
+    public float timerInvinc = 0f;
     
     private Rigidbody2D _rigidbody2D;
     private Input_Actions _input;
@@ -26,8 +28,13 @@ public class PlayerCollision : MonoBehaviour
         if (other.gameObject.CompareTag("Halo")) return;
         if (other.gameObject.layer == 3)
         {
-            playerHealth--;
             Destroy(other.gameObject);
+            if (timerInvinc > 0)
+            {
+                return;
+            }
+            playerHealth--;
+            timerInvinc = invincibilityTime;
         }
         if (playerHealth == 0)
         {
@@ -51,5 +58,6 @@ public class PlayerCollision : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
+        timerInvinc -= Time.deltaTime;
     }
 }
