@@ -66,7 +66,7 @@ public class PlayerCollision : MonoBehaviour
             _playerMovement.enabled = false;
             Destroy(enemySpawner);
             Destroy(bottomBorder);
-            _animator.Play("Boc_Falling");
+            _animator.Play("Boc_Dying_and_Falling");
             animationController.animationCooldown = Time.time + 10f;
         }
     }
