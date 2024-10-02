@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   direction: {x: 0, y: 0}
-  body: {fileID: 6126675301238126391, guid: 801efc7ad5bf9e042982cfef3a2914cc, type: 3}
+  body: {fileID: 346082293455303591, guid: f3c745d4d6b651544bba01791419cbad, type: 3}
 --- !u!95 &3844838675014266943
 Animator:
   serializedVersion: 7
