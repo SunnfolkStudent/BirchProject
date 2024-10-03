@@ -12,7 +12,7 @@ public class Victory_scene : MonoBehaviour
     private IEnumerator SendToStart()
     {
         yield return new WaitForSeconds(10f);
-        SceneManager.LoadScene("IntroCutscene");
+        SceneManager.LoadScene("StartMenuScene");
     }
     
 }
