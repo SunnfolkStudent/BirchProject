@@ -1,4 +1,7 @@
+using System;
+using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class KillBoxController : MonoBehaviour
 {
@@ -6,14 +9,18 @@ public class KillBoxController : MonoBehaviour
     
     public AudioClip[] enemyDeath;
     public AudioClip haloHit;
-    //public AudioClip[] coolLineSound;
-    
-    [Space(5)] 
-  
-    private AudioSource _audioSource;
+
+    private SpriteRenderer _spriteRenderer;
+    private Collider2D _collider2D;
+
+    private void Start()
+    {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _collider2D = GetComponent<Collider2D>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        _audioSource = GetComponent<AudioSource>();
         //if other object is a killbox
         if (other.gameObject.CompareTag("KillBox"))
         {
@@ -24,12 +31,18 @@ public class KillBoxController : MonoBehaviour
         if (other.gameObject.layer == 3)
         {
             AudioSource.PlayClipAtPoint(haloHit, transform.position);
-            //_audioSource.PlayOneShot(haloHit);
-            AudioSource.PlayClipAtPoint(enemyDeath[Random.Range(0, enemyDeath.Length)], transform.position);
+            StartCoroutine(nameof(PlayAudio));
             Destroy(other.gameObject);
-            Destroy(this.gameObject);
-            
+            Destroy(this.gameObject, 0.15f);
+            _spriteRenderer.enabled = false;
+            _collider2D.enabled = false;
+            PlayerMovement.enemyDeathCounter++;
         }
     }
-    
+
+    private IEnumerator PlayAudio()
+    {
+        yield return new WaitForSeconds(0.1f);
+        AudioSource.PlayClipAtPoint(enemyDeath[Random.Range(0, enemyDeath.Length)], transform.position);
+    }
 }

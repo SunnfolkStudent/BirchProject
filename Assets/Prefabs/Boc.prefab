@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 28e373526a8d3a54491d899f29e93db6, type: 3}
   - {fileID: 8300000, guid: ed73c0669733fd1419a970e192d7c878, type: 3}
   - {fileID: 8300000, guid: 7b37a2efc33a2d540aa117432bdbe02b, type: 3}
+  coolLineSound: []
   playerFlapSound: {fileID: 8300000, guid: b4e488d63ebc477458ff1325bfca8b90, type: 3}
   flapTime: -0.3
   haloSpeed: 10

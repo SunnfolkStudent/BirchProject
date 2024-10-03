@@ -13,9 +13,8 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Audio")]
     
-    //public AudioClip[] hurtSound;
     public AudioClip[] shootingSound;
-    //public AudioClip[] coolLineSound;
+    public AudioClip[] coolLineSound;
     public AudioClip playerFlapSound;
     [Space(5)] 
     public float flapTime = 0.7f;
@@ -28,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     private float spawnTimeCounter;
 
     private Vector2 _lookVector;
+
+    public static int enemyDeathCounter;
     
     void Start()
     {
@@ -42,41 +43,28 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
+    
     void Update()
     {
 
+        if (enemyDeathCounter > 4)
+        {
+            _audioSource.PlayOneShot(coolLineSound[Random.Range(0, coolLineSound.Length)]);
+            enemyDeathCounter = 0;
+        }
+        
         if (_flapTimer < Time.time)
         {
-            //_audioSource.clip = playerFlapSound;
-            //_audioSource.Play();
-            
             _audioSource.PlayOneShot(playerFlapSound);
             _flapTimer = Time.time + flapTime + playerFlapSound.length;
         }
         
-        if (_input.Throw)
+        /*if (_input.Throw)
         {
-            _audioSource.PlayOneShot(shootingSound[Random.Range(0, shootingSound.Length)]);
-            
-            if (!(Time.time > spawnTimeCounter)) return; 
-            var projectileClone = Instantiate(halo, UpdateSpawnPosition(), Quaternion.identity);
-            projectileClone.GetComponent<Rigidbody2D>().linearVelocity =
-                _lookVector * haloSpeed + _rigidbody2D.linearVelocity;
-            if (_lookVector == Vector2.left)
-            {
-                projectileClone.GetComponent<SpriteRenderer>().flipX = true;
-            }
-            else if (_lookVector == Vector2.up)
-                projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
-                
-            else if (_lookVector == Vector2.down)
-            {
-                projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
-                projectileClone.GetComponent<SpriteRenderer>().flipX = true;
-            }
-            spawnTimeCounter = Time.time + spawnTime;
-            Destroy(projectileClone, 4f);
-        }
+            if (!(Time.time > spawnTimeCounter)) return;
+
+          
+        }*/
 
         if (_input.MoveDirection != Vector2.zero)
         {
@@ -91,6 +79,28 @@ public class PlayerMovement : MonoBehaviour
         {
             _spriteRenderer.flipX = false;
         }
+    }
+
+    public void Shoot()
+    {
+        _audioSource.PlayOneShot(shootingSound[Random.Range(0, shootingSound.Length)]);
+            
+        var projectileClone = Instantiate(halo, UpdateSpawnPosition(), Quaternion.identity);
+        projectileClone.GetComponent<Rigidbody2D>().linearVelocity = _lookVector * haloSpeed + _rigidbody2D.linearVelocity;
+            
+        if (_lookVector == Vector2.left)
+        {
+            projectileClone.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (_lookVector == Vector2.up) projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
+                
+        else if (_lookVector == Vector2.down)
+        {
+            projectileClone.transform.rotation = Quaternion.Euler(0, 0, 90);
+            projectileClone.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        Destroy(projectileClone, 4f);
+        spawnTimeCounter = Time.time + spawnTime;
     }
 
     private Vector2 UpdateSpawnPosition()
