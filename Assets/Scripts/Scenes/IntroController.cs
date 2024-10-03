@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class IntroController : MonoBehaviour
 {
+    private AudioSource _audioSource;
+
+    public AudioClip IntroMusic;
     private void Start()
     {
+        _audioSource = GetComponent<AudioSource>();
+        _audioSource.PlayOneShot(IntroMusic);
         StartCoroutine(SendToStart());
     }
 
