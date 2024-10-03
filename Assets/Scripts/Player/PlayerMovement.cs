@@ -120,38 +120,3 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D.linearVelocity = _input.MoveDirection * moveSpeed;
     }
 }
-
-/*
-Når spiller kolliderer med "enemy"
-	-hurtsound[1,2]
-
-når spiller skyter
-	-shooting_sound[1,2,3]
-
-når enemy kolliderer med skudd
-	-halo_hit
-
-hver 5 enemy Boc dreper
-	-cool_line[1,2,3,4,5,6,7,8]
-
-når du trykker start
-	-press_start_line
-
-alltid(når du spiller)
-	-player_flap
-
-når du er i "hell"
-	-hell_music
-
-når du er i "heaven"
-	-heaven_music
-
-når du er i "transition"
-	-transition_music
-
-når du er i "start_menu"
-	-start_menu_music
-
-når du har nådd toppen
-	-victory_music
-	*/

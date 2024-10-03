@@ -79,7 +79,7 @@ public class PlayerCollision : MonoBehaviour
             deathTime -= Time.deltaTime;
             if (deathTime <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene("StartMenuScene");
             }
         }
         timerInvinc -= Time.deltaTime;
