@@ -10,7 +10,7 @@ public class PlayerCollision : MonoBehaviour
     public float invincibilityTime = 1f;
     public float timerInvinc = 0f;
 
-    public BocAnimationController animationController;
+    public PlayerAnimationController animationController;
 
     public GameObject bottomBorder;
     
