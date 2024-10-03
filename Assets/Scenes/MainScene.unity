@@ -1213,7 +1213,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: myWaves.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[5]'
@@ -1222,15 +1222,23 @@ PrefabInstance:
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[6]'
       value: 
-      objectReference: {fileID: 8214261215442867681, guid: 2d4740c74cb263641916cb272d57e9e0, type: 3}
+      objectReference: {fileID: 8214261215442867681, guid: 6ee4768dc28ee0a4db12bdb0d5ac255d, type: 3}
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[7]'
       value: 
-      objectReference: {fileID: 8214261215442867681, guid: 5d8cb65037f97974bbd9b143d451c5be, type: 3}
+      objectReference: {fileID: 8214261215442867681, guid: 2d4740c74cb263641916cb272d57e9e0, type: 3}
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[8]'
       value: 
+      objectReference: {fileID: 8214261215442867681, guid: 5d8cb65037f97974bbd9b143d451c5be, type: 3}
+    - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
+      propertyPath: 'myWaves.Array.data[9]'
+      value: 
       objectReference: {fileID: 8214261215442867681, guid: 6347fb3fb52cd424d83792f835b1b238, type: 3}
+    - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
+      propertyPath: 'myWaves.Array.data[10]'
+      value: 
+      objectReference: {fileID: 8214261215442867681, guid: e931c41c5a295294e99b4556a21923d4, type: 3}
     - target: {fileID: 4769757876449789041, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

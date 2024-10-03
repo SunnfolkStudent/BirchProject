@@ -1573,6 +1573,14 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
+      propertyPath: 'myWaves.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8214261215442867681, guid: 6347fb3fb52cd424d83792f835b1b238, type: 3}
+    - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
+      propertyPath: 'myWaves.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8214261215442867681, guid: 2d4740c74cb263641916cb272d57e9e0, type: 3}
+    - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[5]'
       value: 
       objectReference: {fileID: 8214261215442867681, guid: e931c41c5a295294e99b4556a21923d4, type: 3}
