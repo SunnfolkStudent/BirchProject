@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Victory_scene : MonoBehaviour
+
+public class VictoryController : MonoBehaviour
 {
     private void Start()
     {
