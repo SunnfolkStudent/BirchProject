@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a943cdc6bb4cf642add4ef493b2b33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 5
+  playerHealth: 50
   playerIsDead: 0
   fallSpeed: 5
   deathTime: 4
@@ -287,7 +287,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.496
+  m_Volume: 0.75
   m_Pitch: 1
   Loop: 0
   Mute: 0
