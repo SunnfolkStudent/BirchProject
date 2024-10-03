@@ -336,7 +336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2437bf7b2e2167b428d760695fbacfdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VictoryMusic: {fileID: 8300000, guid: d5b4a009cf6f67444b9225b43f363042, type: 3}
+  sparkleSound: {fileID: 8300000, guid: 605391f86e900544b8d0c6ee43c43fea, type: 3}
+  victoryMusic: {fileID: 8300000, guid: d5b4a009cf6f67444b9225b43f363042, type: 3}
 --- !u!114 &1341281522
 MonoBehaviour:
   m_ObjectHideFlags: 0
