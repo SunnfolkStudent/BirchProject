@@ -179,7 +179,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 28e373526a8d3a54491d899f29e93db6, type: 3}
   - {fileID: 8300000, guid: ed73c0669733fd1419a970e192d7c878, type: 3}
   - {fileID: 8300000, guid: 7b37a2efc33a2d540aa117432bdbe02b, type: 3}
-  coolLineSound: []
+  coolLineSound:
+  - {fileID: 8300000, guid: b2e5997d765737e41aa57e15c3c11d6b, type: 3}
+  - {fileID: 8300000, guid: a141eaa061a148c4cac25c9c740a0dcb, type: 3}
+  - {fileID: 8300000, guid: 4e8749418e273cd4297882e783a638ea, type: 3}
+  - {fileID: 8300000, guid: 942e94bf40e7b994b831e9316f6d794f, type: 3}
+  - {fileID: 8300000, guid: 698ff51065a8f044ba05035d8f4e5990, type: 3}
+  - {fileID: 8300000, guid: b3cedd7fb3f9ace43a4c3175b646549c, type: 3}
+  - {fileID: 8300000, guid: 8739059c9305abf42ab4e958f28a4ca1, type: 3}
+  - {fileID: 8300000, guid: 4c943b1645dbf8f46a0ad3dea2078600, type: 3}
   playerFlapSound: {fileID: 8300000, guid: b4e488d63ebc477458ff1325bfca8b90, type: 3}
   flapTime: -0.3
   haloSpeed: 10
