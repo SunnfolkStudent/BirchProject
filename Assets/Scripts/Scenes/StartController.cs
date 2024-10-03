@@ -17,7 +17,7 @@ namespace Player
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
 
-        if (sceneName == "StartMenuScene" && Keyboard.current.anyKey.wasPressedThisFrame)
+        if (sceneName == "StartMenuScene" && Keyboard.current.anyKey.wasPressedThisFrame || Gamepad.current.aButton.wasPressedThisFrame)
         {
             Debug.Log("Input Detected!");
             _audioSource.PlayOneShot(pressStartLine);
