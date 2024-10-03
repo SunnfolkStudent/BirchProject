@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
 
    private void Update()
    {
-      UpdateMusic(Time.time);
+      UpdateMusic(Time.timeSinceLevelLoad);
    }
 
    void UpdateMusic(float time)
