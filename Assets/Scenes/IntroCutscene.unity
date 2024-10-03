@@ -380,7 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d824a5b6b75a6c4abed33768fe300ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IntroMusic: {fileID: 8300000, guid: 5408cbdd4c4dbc045aa113636a45bba1, type: 3}
+  introLine: {fileID: 8300000, guid: 3e095e2ed451f7f439d9827d1008c671, type: 3}
+  introMusic: {fileID: 8300000, guid: 5408cbdd4c4dbc045aa113636a45bba1, type: 3}
+  fireSound: {fileID: 8300000, guid: 808f1db8b352b034183c49d943308052, type: 3}
 --- !u!82 &1341281524
 AudioSource:
   m_ObjectHideFlags: 0

@@ -20,12 +20,12 @@ public class AudioManager : MonoBehaviour
 
    void UpdateMusic(float time)
    {
-      if (time < 70 && _audioSource.clip != musicClips[0])
+      if (time < 78 && _audioSource.clip != musicClips[0])
       {
          _audioSource.clip = musicClips[0];
          _audioSource.Play();
       }
-     else if (time > 70 && _audioSource.clip == musicClips[0])
+     else if (time > 78 && _audioSource.clip == musicClips[0])
      {
         _audioSource.clip = musicClips[1];
         _audioSource.loop = false;

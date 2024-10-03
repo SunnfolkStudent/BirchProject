@@ -7,12 +7,16 @@ public class IntroController : MonoBehaviour
 {
     private AudioSource _audioSource;
 
-    public AudioClip IntroMusic;
+    public AudioClip introLine;
+    public AudioClip introMusic;
+    public AudioClip fireSound;
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
-        _audioSource.PlayOneShot(IntroMusic);
+        _audioSource.PlayOneShot(introLine);
+        _audioSource.PlayOneShot(introMusic);
         StartCoroutine(SendToStart());
+        StartCoroutine(FireSounds());
     }
 
     private IEnumerator SendToStart()
@@ -20,5 +24,9 @@ public class IntroController : MonoBehaviour
         yield return new WaitForSeconds(7f);
         SceneManager.LoadScene("MainScene");
     }
-    
+    private IEnumerator FireSounds()
+    {
+        yield return new WaitForSeconds(4.5f);
+        _audioSource.PlayOneShot(fireSound);
+    }
 }
