@@ -1478,6 +1478,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
+      propertyPath: invincibilityTime
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7649167830818779138, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: 'hearts.Array.data[0]'
       value: 
@@ -1575,7 +1579,7 @@ PrefabInstance:
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[0]'
       value: 
-      objectReference: {fileID: 8214261215442867681, guid: 6347fb3fb52cd424d83792f835b1b238, type: 3}
+      objectReference: {fileID: 8214261215442867681, guid: 5d8cb65037f97974bbd9b143d451c5be, type: 3}
     - target: {fileID: 33659454566892957, guid: c2046f1c588feb443b11a2a76b742037, type: 3}
       propertyPath: 'myWaves.Array.data[1]'
       value: 

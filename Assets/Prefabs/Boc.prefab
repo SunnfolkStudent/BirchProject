@@ -132,7 +132,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.045948178, y: -0.00856638}
-  m_Radius: 0.39252833
+  m_Radius: 0.37494284
 --- !u!50 &8640573012043330122
 Rigidbody2D:
   serializedVersion: 5
@@ -204,14 +204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a943cdc6bb4cf642add4ef493b2b33d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 50
+  playerHealth: 3
   playerIsDead: 0
   fallSpeed: 5
   deathTime: 4
-  invincibilityTime: 1
+  invincibilityTime: 1.5
   timerInvinc: 0
   animationController: {fileID: 3595959697591179198}
-  bottomBorder: {fileID: 0}
+  bottomBorderCollider: {fileID: 0}
   gethitsound:
   - {fileID: 8300000, guid: 1940e2b7eb0698a4ab35b5e6d1e7c7a7, type: 3}
   - {fileID: 8300000, guid: 0b2a559ad946f324ca8f82f5fab3a766, type: 3}

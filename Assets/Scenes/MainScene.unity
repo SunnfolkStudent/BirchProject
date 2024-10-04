@@ -1220,6 +1220,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
+      propertyPath: invincibilityTime
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: bottomBorderCollider
       value: 
       objectReference: {fileID: 178405105}
