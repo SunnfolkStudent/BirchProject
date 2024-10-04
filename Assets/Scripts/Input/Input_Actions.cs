@@ -29,23 +29,30 @@ public class Input_Actions : MonoBehaviour
     {
         if (Gamepad.current != null)
         {
-            //Joystick is a bit funky, but otherwise the dpad is working as intended.
-            LRUD[0] = Keyboard.current.aKey.isPressed || Gamepad.current.dpad.left.isPressed ||
-                      Gamepad.current.leftStick.value.x < 0
-                ? true
-                : false;
-            LRUD[1] = Keyboard.current.dKey.isPressed || Gamepad.current.dpad.right.isPressed ||
-                      Gamepad.current.leftStick.value.x > 0
-                ? true
-                : false;
-            LRUD[2] = Keyboard.current.wKey.isPressed || Gamepad.current.dpad.up.isPressed ||
-                      Gamepad.current.leftStick.value.y > 0
-                ? true
-                : false;
-            LRUD[3] = Keyboard.current.sKey.isPressed || Gamepad.current.dpad.down.isPressed ||
-                      Gamepad.current.leftStick.value.y < 0
-                ? true
-                : false;
+            if (Mathf.Abs(Gamepad.current.leftStick.value.x) >= Mathf.Abs(Gamepad.current.leftStick.value.y))
+            {
+                //Joystick is a bit funky, but otherwise the dpad is working as intended.
+                LRUD[0] = Keyboard.current.aKey.isPressed || Gamepad.current.dpad.left.isPressed ||
+                          Gamepad.current.leftStick.value.x < 0
+                    ? true
+                    : false;
+                LRUD[1] = Keyboard.current.dKey.isPressed || Gamepad.current.dpad.right.isPressed ||
+                          Gamepad.current.leftStick.value.x > 0
+                    ? true
+                    : false;
+            }
+            else
+            {
+                LRUD[2] = Keyboard.current.wKey.isPressed || Gamepad.current.dpad.up.isPressed ||
+                          Gamepad.current.leftStick.value.y > 0.5
+                    ? true
+                    : false;
+                LRUD[3] = Keyboard.current.sKey.isPressed || Gamepad.current.dpad.down.isPressed ||
+                          Gamepad.current.leftStick.value.y < -0.5
+                    ? true
+                    : false;
+            }
+            
 
         }
         else
