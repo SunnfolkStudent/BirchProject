@@ -235,11 +235,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &178405101 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4902170662545352472, guid: e532267d0ae0d3345a7d81be01ad4a74, type: 3}
-  m_PrefabInstance: {fileID: 8227664465503495695}
-  m_PrefabAsset: {fileID: 0}
 --- !u!61 &178405105 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 7706202164542056427, guid: e532267d0ae0d3345a7d81be01ad4a74, type: 3}
@@ -1208,29 +1203,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: bottomBorder
-      value: 
-      objectReference: {fileID: 178405101}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: enemySpawner
       value: 
       objectReference: {fileID: 286033044}
     - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: playerHealth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: invincibilityTime
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2350881982254943689, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: bottomBorderCollider
       value: 
       objectReference: {fileID: 178405105}
-    - target: {fileID: 7452677217810497205, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
-      propertyPath: m_Radius
-      value: 0.37494284
-      objectReference: {fileID: 0}
     - target: {fileID: 7649167830818779138, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: 'hearts.Array.data[0]'
       value: 

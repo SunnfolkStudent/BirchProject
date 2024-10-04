@@ -36,7 +36,7 @@ public class KillBoxController : MonoBehaviour
             Destroy(this.gameObject, 0.15f);
             _spriteRenderer.enabled = false;
             _collider2D.enabled = false;
-            PlayerMovement.enemyDeathCounter++;
+            PlayerMovement.EnemyDeathCounter++;
         }
     }
 
