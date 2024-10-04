@@ -12,7 +12,7 @@ public class PlayerCollision : MonoBehaviour
 
     public PlayerAnimationController animationController;
 
-    public GameObject bottomBorder;
+    public BoxCollider2D bottomBorderCollider;
     
     [Header("Audio")]
     
@@ -65,7 +65,7 @@ public class PlayerCollision : MonoBehaviour
             _input.enabled = false;
             _playerMovement.enabled = false;
             Destroy(enemySpawner);
-            Destroy(bottomBorder);
+            Destroy(bottomBorderCollider);
             _animator.Play("Boc_Dying_and_Falling");
             animationController.animationCooldown = Time.time + 10f;
         }
