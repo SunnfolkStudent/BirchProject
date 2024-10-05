@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Flip Sprite if Facing left 
-        //_spriteRenderer.flipX = _input.MoveDirection.x < 0;
+        _spriteRenderer.flipX = _input.MoveDirection.x < 0;
     }
 
     public void Shoot()
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
         var projectileClone = Instantiate(halo, UpdateSpawnPosition(), Quaternion.identity);
 
-        projectileClone.GetComponent<Rigidbody2D>().linearVelocity = dir * haloSpeed;
+        projectileClone.GetComponent<Rigidbody2D>().linearVelocity = dir * haloSpeed + _rigidbody2D.linearVelocity;
 
         if (dir == Vector2.left)
         {

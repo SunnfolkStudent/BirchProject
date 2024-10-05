@@ -13,13 +13,11 @@ public class PlayerAnimationController : MonoBehaviour
 
     private Animator _animator;
     private Input_Actions _input;
-    private SpriteRenderer _spriteRenderer;
 
     private void Start()
     {
         _input = GetComponent<Input_Actions>();
         _animator = GetComponent<Animator>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
 
         if (PreviousShootDirection == Vector2.zero)
         {
@@ -60,14 +58,8 @@ public class PlayerAnimationController : MonoBehaviour
                 {
                     _animator.Play(ThrowDown);
                 }
-                else if (_input.MoveDirection == Vector2.left)
-                {
-                    _spriteRenderer.flipX = true;
-                    _animator.Play(ThrowSide);
-                }
                 else
                 {
-                    _spriteRenderer.flipX = false;
                     _animator.Play(ThrowSide);
                 }
             }
