@@ -3,72 +3,89 @@ using UnityEngine;
 
 public class PlayerAnimationController : MonoBehaviour
 {
-    public Rigidbody2D rb2D;
-    public Animator _animator;
+    public float animationCooldown;
+    public static Vector2 PreviousShootDirection;
 
-    public float animationCooldown = 0;
+    private static readonly int ThrowUp = Animator.StringToHash("Boc_Up_Throw");
+    private static readonly int ThrowDown = Animator.StringToHash("Boc_Down_Throw");
+    private static readonly int ThrowSide = Animator.StringToHash("Boc_Side_Throw");
+    private static readonly int Fly = Animator.StringToHash("Boc_Flying");
 
+    private Animator _animator;
     private Input_Actions _input;
-    private Vector2 _previousShootDirection;
+    private SpriteRenderer _spriteRenderer;
 
-    void Start()
+    private void Start()
     {
         _input = GetComponent<Input_Actions>();
         _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (PreviousShootDirection == Vector2.zero)
+        {
+            PreviousShootDirection.x = 1;
+        }
     }
 
     private void UpdateAnimation()
     {
+        if (animationCooldown > Time.time) return;
+
         if (_input.Throw)
         {
-            //Half Second cooldown on attacks
-            animationCooldown = Time.time + 0.5f;
-
             if (_input.MoveDirection == Vector2.zero)
             {
-                if (_previousShootDirection == Vector2.up)
+                if (PreviousShootDirection == Vector2.up)
                 {
-                    _animator.Play("Boc_Up_Throw");
+                    _animator.Play(ThrowUp);
                 }
-                else if (_previousShootDirection == Vector2.down)
+                else if (PreviousShootDirection == Vector2.down)
                 {
-                    _animator.Play("Boc_Down_Throw");
+                    _animator.Play(ThrowDown);
                 }
                 else
                 {
-                    _animator.Play("Boc_Side_Throw");
+                    _animator.Play(ThrowSide);
                 }
             }
             else
             {
-                if (_input.MoveDirection.y > 0)
+                PreviousShootDirection = _input.MoveDirection;
+
+                if (_input.MoveDirection == Vector2.up)
                 {
-                    _animator.Play("Boc_Up_Throw");
-                    _previousShootDirection = Vector2.up;
+                    _animator.Play(ThrowUp);
                 }
-                else if (_input.MoveDirection.y < 0)
+                else if (_input.MoveDirection == Vector2.down)
                 {
-                    _animator.Play("Boc_Down_Throw");
-                    _previousShootDirection = Vector2.down;
+                    _animator.Play(ThrowDown);
                 }
                 else
                 {
-                    _animator.Play("Boc_Side_Throw");
-                    _previousShootDirection = Vector2.right;
+                    _animator.Play(ThrowSide);
                 }
             }
+            animationCooldown = Time.time + 0.5f;
         }
         else
         {
-            _animator.Play("Boc_Flying");
+            _animator.Play(Fly);
+            
+            if (_input.MoveDirection.x > 0)
+            {
+                _spriteRenderer.flipX = false;
+                PreviousShootDirection = Vector2.right;
+            }
+            else if (_input.MoveDirection.x < 0)
+            {
+                _spriteRenderer.flipX = true;
+                PreviousShootDirection = Vector2.left;
+            }
         }
     }
 
-    void Update()
+    private void Update()
     {
-        if (Time.time > animationCooldown)
-        {
-            UpdateAnimation();
-        }
+        UpdateAnimation();
     }
 }

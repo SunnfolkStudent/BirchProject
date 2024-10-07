@@ -1210,6 +1210,10 @@ PrefabInstance:
       propertyPath: bottomBorderCollider
       value: 
       objectReference: {fileID: 178405105}
+    - target: {fileID: 6961266896292262380, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
+      propertyPath: haloSpeed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 7649167830818779138, guid: 25e1c024c7b5c7545b360ea0ef6458ec, type: 3}
       propertyPath: 'hearts.Array.data[0]'
       value: 
