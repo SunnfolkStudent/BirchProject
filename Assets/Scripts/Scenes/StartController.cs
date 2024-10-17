@@ -7,6 +7,8 @@ namespace Player
 {
     public class StartController : MonoBehaviour
     {
+        private bool beginning = false;
+        
         [Header("Audio")]
     
         public AudioClip pressStartLine;
@@ -23,10 +25,12 @@ namespace Player
             || Gamepad.current.buttonNorth.wasPressedThisFrame
             || Gamepad.current.buttonSouth.wasPressedThisFrame)
         {
-            Debug.Log("Input Detected!");
-            _audioSource.PlayOneShot(pressStartLine);
-            StartCoroutine(VoiceLineWait());
-
+            if (beginning == false){
+                Debug.Log("Input Detected!");
+                beginning = true;
+                _audioSource.PlayOneShot(pressStartLine);
+                StartCoroutine(VoiceLineWait());
+            }
         }
     }
 

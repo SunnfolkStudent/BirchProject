@@ -47,18 +47,6 @@ public class PlayerMovement : MonoBehaviour
             _audioSource.PlayOneShot(playerFlapSound);
             _flapTimer = Time.time + flapTime + playerFlapSound.length;
         }
-
-        //Flip Sprite if Facing left 
-        //_spriteRenderer.flipX = _input.MoveDirection.x < 0;
-        
-        else if (_input.MoveDirection.y > 0)
-        {
-            //PlayerAnimationController.PreviousShootDirection = Vector2.up;
-        }
-        else if (_input.MoveDirection.y < 0)
-        {
-            //PlayerAnimationController.PreviousShootDirection = Vector2.down;
-        }
     }
 
     public void Shoot()

@@ -173,8 +173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  halo: {fileID: 8243639072520144506, guid: 65345fe4eb1715a4787b99b5f189bbf3, type: 3}
-  haloSpawn: {x: 0, y: 0}
   shootingSound:
   - {fileID: 8300000, guid: 28e373526a8d3a54491d899f29e93db6, type: 3}
   - {fileID: 8300000, guid: ed73c0669733fd1419a970e192d7c878, type: 3}
@@ -191,7 +189,8 @@ MonoBehaviour:
   playerFlapSound: {fileID: 8300000, guid: b4e488d63ebc477458ff1325bfca8b90, type: 3}
   flapTime: -0.3
   haloSpeed: 10
-  spawnTime: 0
+  halo: {fileID: 8243639072520144506, guid: 65345fe4eb1715a4787b99b5f189bbf3, type: 3}
+  haloSpawn: {x: 0, y: 0}
 --- !u!114 &2350881982254943689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,8 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca87ce6ef0e213b45988af843a34055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb2D: {fileID: 0}
-  _animator: {fileID: 0}
   animationCooldown: 0
 --- !u!95 &5442443460029150097
 Animator:
